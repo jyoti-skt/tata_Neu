@@ -63,25 +63,35 @@ class MyHomePage extends StatelessWidget {
     );
   }
 
-  // Widget _buildChip(String label, Color color) {
-  //   return Chip(
-  //     labelPadding: EdgeInsets.all(2.0),
-  //     avatar: CircleAvatar(
-  //       backgroundColor: Colors.white70,
-  //       child: Text(label[0].toUpperCase()),
-  //     ),
-  //     label: Text(
-  //       label,
-  //       style: TextStyle(
-  //         color: Colors.white,
-  //       ),
-  //     ),
-  //     backgroundColor: color,
-  //     elevation: 6.0,
-  //     shadowColor: Colors.grey[60],
-  //     padding: EdgeInsets.all(8.0),
-  //   );
-  // }
 
 }
+
+
+
+
+
+  //Question 2
+// In this question first of all metgod Nmae can not be start from UppercAse Letter
+// so we need to make it  LowerCase.
+
+String mylongquestion(String counting){
+  String counting = "";
+   for(var i = 0 ; i <=10000; i++){
+     counting;
+   }
+   return "$counting";
+
+}
+
+
+// Question 3:
+var list1 = ['i','love','flutter'];
+final list2 = list1;
+
+// This Line will not Compile because we declare variable as final then
+// we can not Reassign the Value. nad In the Third Line also const can not
+// be changed so these statement are Wrong
+
+// list2[2] = 'Dart';
+// const list3 = list1;
 
